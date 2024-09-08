@@ -3,108 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Abin Bijoy - Aspiring Software Engineer, MERN Stack Developer, Machine Learning Enthusiast">
-    <title>Abin Bijoy | Portfolio</title>
+    <title>Abin Bijoy Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="video-background">
-        <video autoplay muted loop id="background-video">
-            <source src="C:\Users\ALBIN\Documents\Portfolio\background.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-
     <header>
-        <div class="container">
-            <div class="profile-pic">
-                <img src="image.jpg" alt="Abin Bijoy">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Logo">
             </div>
-            <h1>Abin Bijoy</h1>
-            <p>Aspiring Software Engineer | MERN Stack Developer | Machine Learning Enthusiast</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
     </header>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I am a final-year B.Tech Computer Science Engineering student at Jyothi Engineering College, Thrissur. With a strong passion for Web Development, Machine Learning, and AI, I aim to innovate and contribute to impactful projects.</p>
+    <section class="hero">
+        <div class="video-background">
+            <video autoplay muted loop id="background-video">
+                <source src="assets/background-video.mp4" type="video/mp4">
+            </video>
         </div>
-    </section>
-
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <div class="skills-grid">
-                <div class="skill">
-                    <h3>Web Development</h3>
-                    <p>MERN Stack (MongoDB, Express.js, React.js, Node.js), PHP, CodeIgniter</p>
-                </div>
-                <div class="skill">
-                    <h3>Machine Learning</h3>
-                    <p>Deep Learning, Comment Toxicity Classification</p>
-                </div>
-                <div class="skill">
-                    <h3>App Development</h3>
-                    <p>React Native</p>
-                </div>
-                <div class="skill">
-                    <h3>Other Skills</h3>
-                    <p>Project Management, UI/UX Design, Python, MySQL</p>
-                </div>
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="assets/abin.jpg" alt="Abin Bijoy">
+            </div>
+            <div class="hero-text">
+                <h1>Abin Bijoy</h1>
+                <p>Aspiring Software Engineer | MERN Stack Developer | Machine Learning Enthusiast</p>
             </div>
         </div>
     </section>
 
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project-grid">
-                <div class="project">
-                    <h3>College Bus Management</h3>
-                    <p>Web application integrated with college website for transportation services. Deployed at <a href="http://bus.jeccac.in" target="_blank">bus.jeccac.in</a>.</p>
-                </div>
-                <div class="project">
-                    <h3>Hostel Management App</h3>
-                    <p>An app for managing hostel activities, including room allocation and student information management.</p>
-                </div>
-                <div class="project">
-                    <h3>Monthly Expense Tracker</h3>
-                    <p>Responsive expense tracker with features like pie chart visualization, date filtering, and persistent data storage.</p>
-                </div>
-                <div class="project">
-                    <h3>Blood Bank App</h3>
-                    <p>An app for users to register as blood donors and search for other donors, including Google Sign-In integration.</p>
-                </div>
-                <div class="project">
-                    <h3>Student Grades Calculator</h3>
-                    <p>A mobile and desktop-friendly app for calculating and exporting student grades with Excel integration.</p>
-                </div>
-            </div>
-        </div>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Abin Bijoy, a final-year BTech student in Computer Science Engineering at Jyothi Engineering College, Thrissur. With a passion for technology and innovation, I have immersed myself in various aspects of software development, particularly web development and machine learning. My experience spans full-stack development using the MERN stack (MongoDB, Express.js, React.js, Node.js) and deep learning techniques for artificial intelligence. Over the years, I've honed my skills by working on several real-world projects and completing internships in Full Stack Development and AI, provided by the ICT Academy Kerala.</p>
+    
+        <p>I believe in the power of technology to solve complex problems and improve people's lives. My journey as a developer has been fueled by curiosity and a desire to build meaningful solutions. One of my key projects is a College Bus Management system, developed with CodeIgniter and PHP. This project was integrated into my college's website to facilitate seamless management of transportation services for students and staff. In addition, I'm currently working on a Hostel Management application to enhance efficiency and user experience within the college community.</p>
+    
+        <p>In the realm of AI, I developed a Comment Toxicity Classifier that leverages deep learning to detect harmful content on online platforms. This project demonstrates my commitment to creating safer digital environments. My goal is to continue exploring the possibilities in software engineering and AI by contributing to innovative projects that push the boundaries of what's possible.</p>
+    
+        <p>I'm always eager to collaborate on exciting new projects and learn from others in the tech community. Feel free to connect with me to discuss potential opportunities, share ideas, or explore ways we can work together to bring impactful solutions to life.</p>
     </section>
+    
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:abinbijoy4321@gmail.com">abinbijoy4321@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/abin4321" target="_blank">LinkedIn Profile</a></p>
-            <p>GitHub: <a href="https://github.com/Abin4321" target="_blank">GitHub Profile</a></p>
+<!-- Skills Section -->
+<section id="skills" class="skills">
+    <div class="skills-grid">
+        <div class="skill-card">
+            <a href="https://www.w3schools.com/html/" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/50/000000/html-5.png" alt="HTML"></a>
+            <h3>HTML</h3>
         </div>
-    </section>
+        <div class="skill-card">
+            <a href="https://www.w3schools.com/css/" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/50/000000/css3.png" alt="CSS"></a>
+            <h3>CSS</h3>
+        </div>
+        <div class="skill-card">
+            <a href="https://www.w3schools.com/js/" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/50/000000/javascript.png" alt="JavaScript"></a>
+            <h3>JavaScript</h3>
+        </div>
+        <div class="skill-card">
+            <a href="https://www.w3schools.com/react/" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/50/000000/react-native.png" alt="React"></a>
+            <h3>React</h3>
+        </div>
+    </div>
+</section>
+
+   <!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="project-grid">
+        <div class="project-card">
+            <a href="https://bus.jeccac.in" target="_blank" class="project-link">
+                <img src="assets/college bus.jpg" alt="College Bus Management"></a>
+                <h3>College Bus Management</h3>
+        </div>
+        <div class="project-card">
+            <a href="https://adtjcs.in/santhome_demo/" target="_blank" class="project-link">
+            <img src="assets/college hotel.jpeg" alt="Hostel Management"></a>
+            <h3>Hostel Management</h3>
+        </div>
+        <div class="project-card">
+            <a href="https://huggingface.co/spaces/abinbijoy4321/Comment-Toxicity-Classifier-using-BERT" target="_blank" class="project-link">
+            <img src="assets/comment toxicity.jpg" alt="Comment Toxicity Classifier"></a>
+            <h3>Comment Toxicity Classifier</h3>
+        </div>
+    </div>
+</section>
+
+   <!-- Contact Section -->
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:abinbijoy4321@gmail.com">abinbijoy4321@gmail.com</a></p>
+    <p>Phone: <a href="tel:+918075317274">+91 8075317274</a></p>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/abin4321/" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/Abin4321" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub">
+        </a>
+        <a href="https://discord.com/users/abinbijoy4321" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/50/000000/discord.png" alt="Discord">
+        </a>
+    </div>
+</section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Abin Bijoy. All Rights Reserved.</p>
-        </div>
+        <p>&copy; 2024 Abin Bijoy. All Rights Reserved.</p>
     </footer>
 
     <script src="script.js"></script>
